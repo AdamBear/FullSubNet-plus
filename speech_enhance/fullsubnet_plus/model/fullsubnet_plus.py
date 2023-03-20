@@ -8,7 +8,7 @@ from audio_zen.model.module.attention_model import ChannelSELayer, ChannelECAlay
     ChannelTimeSenseSELayer, ChannelTimeSenseAttentionSELayer, ChannelTimeSenseSEWeightLayer
 
 # for log
-from utils.logger import log
+from speech_enhance.utils.logger import log
 
 print = log
 
