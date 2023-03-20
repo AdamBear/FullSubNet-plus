@@ -6,7 +6,7 @@ from audio_zen.acoustics.mask import decompress_cIRM
 from audio_zen.inferencer.base_inferencer import BaseInferencer
 
 # for log
-from utils.logger import log
+from speech_enhance.utils.logger import log
 print=log
 
 def cumulative_norm(input):
