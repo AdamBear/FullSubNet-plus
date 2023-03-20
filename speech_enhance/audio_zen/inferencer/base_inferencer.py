@@ -16,7 +16,7 @@ from audio_zen.acoustics.feature import stft, istft, mc_stft
 from audio_zen.utils import initialize_module, prepare_device, prepare_empty_dir
 
 # for log
-from utils.logger import log
+from speech_enhance.utils.logger import log
 print=log
 
 class BaseInferencer:
