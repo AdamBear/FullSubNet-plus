@@ -7,7 +7,7 @@ from functools import reduce
 import torch
 
 # for log
-from utils.logger import log
+from speech_enhance.utils.logger import log
 print=log
 
 def load_checkpoint(checkpoint_path, device):
