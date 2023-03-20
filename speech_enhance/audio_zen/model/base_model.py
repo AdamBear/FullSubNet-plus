@@ -5,7 +5,7 @@ from torch.nn import functional
 from audio_zen.constant import EPSILON
 
 # for log
-from utils.logger import log
+from speech_enhance.utils.logger import log
 print=log
 
 class BaseModel(nn.Module):
